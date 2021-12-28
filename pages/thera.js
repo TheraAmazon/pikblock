@@ -80,7 +80,7 @@ export default function Sale({ user }) {
               </svg>
               <p className="ml-4">
                 Fruits, juices, seeds are turned into profit and enpower the Thera Programs!
-                <code className="text-sm font-bold text-blue-500"> Investors may also use Theras to purchase these products in the future.</code>
+                <code className="text-sm font-bold text-blue-500"> Thera owners may also use Theras to purchase these products in the future.</code>
               </p>
             </li>
             <li className="flex items-center">
