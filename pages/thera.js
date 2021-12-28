@@ -79,7 +79,7 @@ export default function Sale({ user }) {
                 <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
               </svg>
               <p className="ml-4">
-                Fruits, juices, seeds are turned into profit and given to investors!
+                Fruits, juices, seeds are turned into profit and enpower the Thera Programs!
                 <code className="text-sm font-bold text-blue-500"> Investors may also use Theras to purchase these products in the future.</code>
               </p>
             </li>
