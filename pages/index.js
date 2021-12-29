@@ -133,10 +133,10 @@ export default function Home() {
         <p className="mr-1 text-red-600">Help the platform through donations and lets create together a better world!</p>
       </div>
       <div>
-        <a className="mr-1 text-green-600 flex flex-1 text-sm justify-left">Bitcoin : bc1q7h4ukm98psfrde9d60uh08cemdv830gfyfem0e</a>
+        <a className="mr-1 text-green-600 flex flex-1 text-sm justify-left">Bitcoin : bc1qd29zqcm78w57zhr6zdt2cxrrsqd5mxuk28lmwp</a>
       </div>
       <div>
-        <a className="mr-1 text-blue-600 flex flex-1 text-sm justify-left">Eth Mainnet : 0xDC8465402b69108c8698676B56dF968b1b1C7910</a>
+        <a className="mr-1 text-blue-600 flex flex-1 text-sm justify-left">Eth Mainnet : 0x2E05EC78064E6E2b6fAAf6E4B6ed11684e7C9947</a>
       </div>
       <div>
         <a className="mr-1 text-purple-600 flex flex-1 text-sm justify-left">Polygon (Matic Network) : 0x2eb0071ab3067dFEbd8926761dE152Eb432b6820</a>
