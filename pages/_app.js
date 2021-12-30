@@ -57,7 +57,7 @@ function Marketplace({ Component, pageProps }) {
        <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="/">
-            <a className="text-2xl font-bold mr-2 text-red-400">
+            <a className="text-1xl font-bold mr-2 text-red-400">
             Pikblock
             </a>
           </Link>
@@ -66,7 +66,7 @@ function Marketplace({ Component, pageProps }) {
       <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="/event">
-            <a className="text-2xl font-bold mr-2 text-yellow-600">
+            <a className="text-1xl font-bold mr-2 text-yellow-600">
             Event Piks
             </a>
           </Link>
@@ -75,7 +75,7 @@ function Marketplace({ Component, pageProps }) {
       <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="/extra">
-            <a className="text-2xl font-bold mr-2 text-yellow-400">
+            <a className="text-1xl font-bold mr-2 text-yellow-400">
             Extra Piks
             </a>
           </Link>
@@ -84,7 +84,7 @@ function Marketplace({ Component, pageProps }) {
       <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="/family">
-            <a className="text-2xl font-bold mr-2 text-green-500">
+            <a className="text-1xl font-bold mr-2 text-green-500">
             Family Piks
             </a>
           </Link>
@@ -93,7 +93,7 @@ function Marketplace({ Component, pageProps }) {
       <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="/friends">
-            <a className="text-2xl font-bold mr-2 text-blue-400">
+            <a className="text-1xl font-bold mr-2 text-blue-400">
             Friends Piks
             </a>
           </Link>
@@ -102,7 +102,7 @@ function Marketplace({ Component, pageProps }) {
       <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="/lifestyle">
-            <a className="text-2xl font-bold mr-2 text-blue-600">
+            <a className="text-1xl font-bold mr-2 text-blue-600">
             Lifestyle Piks
             </a>
           </Link>
@@ -111,7 +111,7 @@ function Marketplace({ Component, pageProps }) {
       <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="/portrait">
-            <a className="text-2xl font-bold mr-2 text-purple-600">
+            <a className="text-1xl font-bold mr-2 text-purple-600">
             Portrait Piks
             </a>
           </Link>
@@ -120,7 +120,7 @@ function Marketplace({ Component, pageProps }) {
       <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="/travel">
-            <a className="text-2xl font-bold mr-2 text-pink-600">
+            <a className="text-1xl font-bold mr-2 text-pink-600">
             Travel Piks
             </a>
           </Link>
