@@ -11,8 +11,7 @@ import {
 
 import Pikblock from '../artifacts/contracts/Pikblock.sol/Pikblock.json'
 
-function Faucet({ user }) {
-  console.log({ user })
+function Faucet() {
   const [userAccount, setUserAccount] = useState()
   const [amount, setAmount] = useState()
 
@@ -109,12 +108,12 @@ function Faucet({ user }) {
 
 export default Faucet;
 
-export async function getServerSideProps({ req }) {
-  const { user } = await supabase.auth.api.getUserByCookie(req)
+// export async function getServerSideProps({ req }) {
+//   const { user } = await supabase.auth.api.getUserByCookie(req)
 
-  if (!user) {
-    return { props: {}, redirect: { destination: '/sign-in' } }
-  }
+//   if (!user) {
+//     return { props: {}, redirect: { destination: '/sign-in' } }
+//   }
 
-  return { props: { user } }
-}
+//   return { props: { user } }
+// }

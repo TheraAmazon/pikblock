@@ -11,8 +11,7 @@ import {
 import PIKBLOCKEVENT from '../artifacts/contracts/PIKBLOCKEVENT.sol/PIKBLOCKEVENT.json'
 import PIKBLOCKEVENTMarket from '../artifacts/contracts/PIKBLOCKEVENTMarket.sol/PIKBLOCKEVENTMarket.json'
 
-export default function CreatorDashboard({ user }) {
-  console.log({ user })
+export default function CreatorDashboard() {
   const [nfts, setNfts] = useState([])
   const [sold, setSold] = useState([])
   const [loadingState, setLoadingState] = useState('not-loaded')

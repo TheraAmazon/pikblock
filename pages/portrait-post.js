@@ -15,8 +15,7 @@ import {
 import PIKBLOCKPORTRAIT from '../artifacts/contracts/PIKBLOCKPORTRAIT.sol/PIKBLOCKPORTRAIT.json'
 import PIKBLOCKPORTRAITMarket from '../artifacts/contracts/PIKBLOCKPORTRAITMarket.sol/PIKBLOCKPORTRAITMarket.json'
 
-export default function CreateItem({ user }) {
-console.log({ user })
+export default function CreateItem() {
   const [fileUrl, setFileUrl] = useState(null)
   const [formInput, updateFormInput] = useState({ price: '', name: '', description: '' })
   const router = useRouter()
@@ -131,12 +130,12 @@ console.log({ user })
   )
 }
 
-export async function getServerSideProps({ req }) {
-  const { user } = await supabase.auth.api.getUserByCookie(req)
+// export async function getServerSideProps({ req }) {
+//   const { user } = await supabase.auth.api.getUserByCookie(req)
 
-  if (!user) {
-    return { props: {}, redirect: { destination: '/sign-in' } }
-  }
+//   if (!user) {
+//     return { props: {}, redirect: { destination: '/sign-in' } }
+//   }
 
-  return { props: { user } }
-}
+//   return { props: { user } }
+// }

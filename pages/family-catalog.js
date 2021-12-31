@@ -13,8 +13,7 @@ import {
 import PIKBLOCKFAMILY from '../artifacts/contracts/PIKBLOCKFAMILY.sol/PIKBLOCKFAMILY.json'
 import PIKBLOCKFAMILYMarket from '../artifacts/contracts/PIKBLOCKFAMILYMarket.sol/PIKBLOCKFAMILYMarket.json'
 
-export default function Home({ user }) { 
-  console.log({ user })
+export default function Home() {
   const [nfts, setNfts] = useState([])
   const LIMIT = 30 // limite de itens por página
   const [loadingState, setLoadingState] = useState('not-loaded')
@@ -155,12 +154,12 @@ export default function Home({ user }) {
   )
 }
 
-export async function getServerSideProps({ req }) {
-  const { user } = await supabase.auth.api.getUserByCookie(req)
+// export async function getServerSideProps({ req }) {
+//   const { user } = await supabase.auth.api.getUserByCookie(req)
 
-  if (!user) {
-    return { props: {}, redirect: { destination: '/sign-in' } }
-  }
+//   if (!user) {
+//     return { props: {}, redirect: { destination: '/sign-in' } }
+//   }
 
-  return { props: { user } }
-}
+//   return { props: { user } }
+// }

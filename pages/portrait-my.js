@@ -11,8 +11,7 @@ import {
 import PIKBLOCKPORTRAIT from '../artifacts/contracts/PIKBLOCKPORTRAIT.sol/PIKBLOCKPORTRAIT.json'
 import PIKBLOCKPORTRAITMarket from '../artifacts/contracts/PIKBLOCKPORTRAITMarket.sol/PIKBLOCKPORTRAITMarket.json'
 
-export default function MyAssets({ user }) {
-  console.log({ user })
+export default function MyAssets() {
   const [nfts, setNfts] = useState([])
   const [loadingState, setLoadingState] = useState('not-loaded')
   useEffect(() => {
@@ -67,12 +66,12 @@ export default function MyAssets({ user }) {
     </div>
   )
 }
-export async function getServerSideProps({ req }) {
-  const { user } = await supabase.auth.api.getUserByCookie(req)
+// export async function getServerSideProps({ req }) {
+//   const { user } = await supabase.auth.api.getUserByCookie(req)
 
-  if (!user) {
-    return { props: {}, redirect: { destination: '/sign-in' } }
-  }
+//   if (!user) {
+//     return { props: {}, redirect: { destination: '/sign-in' } }
+//   }
 
-  return { props: { user } }
-}
+//   return { props: { user } }
+// }

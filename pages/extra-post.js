@@ -15,8 +15,7 @@ import {
 import PIKBLOCKEXTRA from '../artifacts/contracts/PIKBLOCKEXTRA.sol/PIKBLOCKEXTRA.json'
 import PIKBLOCKEXTRAMarket from '../artifacts/contracts/PIKBLOCKEXTRAMarket.sol/PIKBLOCKEXTRAMarket.json'
 
-export default function CreateItem({ user }) {
-console.log({ user })
+export default function CreateItem() {
   const [fileUrl, setFileUrl] = useState(null)
   const [formInput, updateFormInput] = useState({ price: '', name: '', description: '' })
   const router = useRouter()
@@ -131,12 +130,12 @@ console.log({ user })
   )
 }
 
-export async function getServerSideProps({ req }) {
-  const { user } = await supabase.auth.api.getUserByCookie(req)
+// export async function getServerSideProps({ req }) {
+//   const { user } = await supabase.auth.api.getUserByCookie(req)
 
-  if (!user) {
-    return { props: {}, redirect: { destination: '/sign-in' } }
-  }
+//   if (!user) {
+//     return { props: {}, redirect: { destination: '/sign-in' } }
+//   }
 
-  return { props: { user } }
-}
+//   return { props: { user } }
+// }

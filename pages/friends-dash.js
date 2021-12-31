@@ -11,8 +11,7 @@ import {
 import PIKBLOCKFRIENDS from '../artifacts/contracts/PIKBLOCKFRIENDS.sol/PIKBLOCKFRIENDS.json'
 import PIKBLOCKFRIENDSMarket from '../artifacts/contracts/PIKBLOCKFRIENDSMarket.sol/PIKBLOCKFRIENDSMarket.json'
 
-export default function CreatorDashboard({ user }) {
-  console.log({ user })
+export default function CreatorDashboard() {
   const [nfts, setNfts] = useState([])
   const [sold, setSold] = useState([])
   const [loadingState, setLoadingState] = useState('not-loaded')
@@ -94,12 +93,12 @@ export default function CreatorDashboard({ user }) {
     </div>
   )
 }
-export async function getServerSideProps({ req }) {
-  const { user } = await supabase.auth.api.getUserByCookie(req)
+// export async function getServerSideProps({ req }) {
+//   const { user } = await supabase.auth.api.getUserByCookie(req)
 
-  if (!user) {
-    return { props: {}, redirect: { destination: '/sign-in' } }
-  }
+//   if (!user) {
+//     return { props: {}, redirect: { destination: '/sign-in' } }
+//   }
 
-  return { props: { user } }
-}
+//   return { props: { user } }
+// }

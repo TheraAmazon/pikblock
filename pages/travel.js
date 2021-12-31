@@ -14,8 +14,7 @@ import {
 import PIKBLOCKTRAVEL from '../artifacts/contracts/PIKBLOCKTRAVEL.sol/PIKBLOCKTRAVEL.json'
 import PIKBLOCKTRAVELMarket from '../artifacts/contracts/PIKBLOCKTRAVELMarket.sol/PIKBLOCKTRAVELMarket.json'
 
-export default function Home({ user }) {
-  console.log({ user })
+export default function Home() {
   const [nfts, setNfts] = useState([])
   const LIMIT = 10 // limite de itens por página
   const [loadingState, setLoadingState] = useState('not-loaded')
@@ -157,12 +156,12 @@ export default function Home({ user }) {
   )
 }
 
-export async function getServerSideProps({ req }) {
-  const { user } = await supabase.auth.api.getUserByCookie(req)
+// export async function getServerSideProps({ req }) {
+//   const { user } = await supabase.auth.api.getUserByCookie(req)
 
-  if (!user) {
-    return { props: {}, redirect: { destination: '/sign-in' } }
-  }
+//   if (!user) {
+//     return { props: {}, redirect: { destination: '/sign-in' } }
+//   }
 
-  return { props: { user } }
-}
+//   return { props: { user } }
+// }
