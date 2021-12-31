@@ -42,18 +42,6 @@ function Marketplace({ Component, pageProps }) {
   return (
     <div className="min-h-full bg-gray-100 py-4 flex flex-col justify-center sm:py-12">
         <p className="text-3xl font-bold flex justify-center">PikBlock - Secret Album </p>
-       {/* <nav>
-        <Link href="/profile">
-          <a>Profile</a>
-        </Link>
-        {
-          authenticatedState === 'not-authenticated' && (
-            <Link href="/sign-in">
-              <a>Sign In</a>
-            </Link>
-          )
-        }
-      </nav> */}
        <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="/">
