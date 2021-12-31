@@ -10,22 +10,22 @@ module.exports = {
       chainId: 1337
     },
     rinkeby: {
-       url: "https://rinkeby.infura.io/v3/40b3a3aedddf4e43811c093116586350",
+       url: "https://rinkeby.infura.io/v3/291697c1912845f4b55b544eebda4698",
       accounts: [privateKey]
     },
     goerli: {
-       url: "https://goerli.infura.io/v3/40b3a3aedddf4e43811c093116586350",
+       url: "https://goerli.infura.io/v3/291697c1912845f4b55b544eebda4698",
       accounts: [privateKey]
     },
     mumbai: {
       // Infura
-      url: "https://polygon-mumbai.infura.io/v3/40b3a3aedddf4e43811c093116586350",
+      url: "https://polygon-mumbai.infura.io/v3/291697c1912845f4b55b544eebda4698",
       //url: "https://rpc-mumbai.matic.today",
       accounts: [privateKey]
     },
     matic: {
       // Infura
-       url: "https://polygon-mainnet.infura.io/v3/40b3a3aedddf4e43811c093116586350",
+       url: "https://polygon-mainnet.infura.io/v3/291697c1912845f4b55b544eebda4698",
       //url: "https://rpc-mainnet.maticvigil.com",
       accounts: [privateKey]
     }
