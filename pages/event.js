@@ -30,7 +30,7 @@ export default function Home() {
     (async () => await loadNFTs())()
   }, [])
   async function loadNFTs() {    
-    const provider = new ethers.providers.JsonRpcProvider("https://polygon-mainnet.infura.io/v3/291697c1912845f4b55b544eebda4698")
+    const provider = new ethers.providers.JsonRpcProvider("https://goerli.infura.io/v3/291697c1912845f4b55b544eebda4698")
     const tokenContract = new ethers.Contract(pikblockeventaddress, PIKBLOCKEVENT.abi, provider)
     const marketContract = new ethers.Contract(pikblockeventMarketaddress, PIKBLOCKEVENTMarket.abi, provider)
     const data = await marketContract.fetchMarketItems()
@@ -62,7 +62,7 @@ export default function Home() {
     const contract = new ethers.Contract(pikblockeventMarketaddress, PIKBLOCKEVENTMarket.abi, signer)
 
     const price = ethers.utils.parseUnits(pikblockevent.price.toString(), 'ether')
-    const transaction = await contract.createMarketSale(pikblockeventddress, pikblockevent.itemId, {
+    const transaction = await contract.createMarketSale(pikblockeventaddress, pikblockevent.itemId, {
       value: price
     })
     await transaction.wait()

@@ -20,12 +20,13 @@ contract PIKBLOCKEXTRA is ERC721, ERC721Enumerable, ERC721URIStorage, Pausable, 
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
     address contractAddress;
+    address multisig = 0x86800A02B5d59fE0594eBe7Fc3b7db3E50508b6b;
 
     constructor(address marketplaceAddress) ERC721("PIKBLOCK - EXTRA", "PIKEXTRA") {
-        _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
-        _setupRole(PAUSER_ROLE, msg.sender);
-        _setupRole(BLOCKER_ROLE, msg.sender);
-        _setupRole(BURNER_ROLE, msg.sender);
+        _setupRole(DEFAULT_ADMIN_ROLE, multisig);
+        _setupRole(PAUSER_ROLE, multisig);
+        _setupRole(BLOCKER_ROLE, multisig);
+        _setupRole(BURNER_ROLE, multisig);
         contractAddress = marketplaceAddress;
     }
     
