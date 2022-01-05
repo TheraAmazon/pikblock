@@ -114,10 +114,19 @@ function Marketplace({ Component, pageProps }) {
           </Link>
         </div>
       </nav>
+            <nav className="border-b p-2 mt-2 flex justify-center">
+        <div className="flex justify-wrap mt-1">
+          <Link href="/dao">
+            <a className="text-1xl font-bold mr-2 text-pink-600">
+            Pikblock Dao Tokens!
+            </a>
+          </Link>
+        </div>
+      </nav>
       <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="https://www.dchan.co">
-            <a className="text-2xl mr-2 font-bold text-red-600">
+            <a className="text-1xl mr-2 font-bold text-red-600">
             Post your NFT Meme here!
             </a>
           </Link>
@@ -126,7 +135,7 @@ function Marketplace({ Component, pageProps }) {
       <nav className="border-b p-2 mt-2 flex justify-center">
         <div className="flex justify-wrap mt-1">
           <Link href="https://www.theartsmuseum.com/">
-            <a className="text-2xl mr-2 font-bold text-yellow-600">
+            <a className="text-1xl mr-2 font-bold text-yellow-600">
             Post your NFT ArtWork here!
             </a>
           </Link>
