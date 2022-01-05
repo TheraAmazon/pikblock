@@ -20,7 +20,7 @@ contract PIKBLOCKLIFESTYLE is ERC721, ERC721Enumerable, ERC721URIStorage, Pausab
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
     address contractAddress;
-    address multisig = 0xA83F48ab3E29190Bbd0Aad17fEd2fb61935e3F3e;
+    address multisig = 0x01EDe96B8973A8e3B311436640Be8e63773FB1E0;
 
     constructor(address marketplaceAddress) ERC721("PIKBLOCK - LIFESTYLE", "PIKLIFESTYLE") {
         _setupRole(DEFAULT_ADMIN_ROLE, multisig);

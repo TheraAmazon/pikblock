@@ -16,7 +16,7 @@ contract PIKBLOCKEVENTMarket is ReentrancyGuard, AccessControl {
   Counters.Counter private _itemsSold;
   using Strings for uint256;
   bytes32 public constant WITHDRAW_ROLE = keccak256("WITHDRAW_ROLE");
-  address multisig = 0xA83F48ab3E29190Bbd0Aad17fEd2fb61935e3F3e;
+  address multisig = 0x01EDe96B8973A8e3B311436640Be8e63773FB1E0;
 
   address payable creator;
   uint256 listingPrice = 0.05 ether;
