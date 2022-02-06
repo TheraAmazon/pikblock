@@ -43,7 +43,7 @@ function Faucet() {
   }
 
   return (
-    <h1 className="bg-gradient-to-r from-yellow-200 to-purple-100 px-5 py-4 text-1xl">
+    <h1 className="bg-gradient-to-r from-gray-50 to-gray-200 px-5 py-4 text-1xl">
     
     <div className="Faucet">
       <p>

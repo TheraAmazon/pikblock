@@ -36,14 +36,16 @@ export default function Home() {
       </button>   
       </div>
       
-      <div className="box-content h-1000 w-1000 p-4 flex border-2 flex justify-center border-yellow-600">
+      <div className="flex justify-center items-center">
           <nav className="flex justify-center">
-          <div className="text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+          <div className="text-base text-gray-700 sm:text-md grid grid-cols-1 gap-1 justify-items-stretch">
+          <button className="text-red-500 bg-transparent border border-solid border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/event">
-            <a className="text-2xl mr-2 font-bold text-yellow-600">
+            <a className="px-3 py-2 text-2xl flex justify-center">
               Post Event Piks!
             </a>
           </Link>
+          </button>
         </div>
       </nav>
         </div>
@@ -113,16 +115,22 @@ export default function Home() {
         </div>
       </nav>
         </div>
-        <div className="box-content h-1000 w-1000 p-4 flex border-2 flex justify-center border-green-300">
-          <nav className="border-b p-1 mt-1 flex justify-center">
-          <div className="flex justify-wrap mt-1">
+        <div className="box-content h-1000 w-1000 p-4 flex border-2 flex justify-center border-pink-300">
+          <nav className="flex justify-center">
+          <div className="text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
           <Link href="/dao">
-            <a className="mr-2 font-bold text-purple-800">
-              /DAO/
+            <a className="text-2xl mr-2 font-bold text-pink-800">
+              /PIKBLOCK DAO TOKENS!/
             </a>
           </Link>
+        </div>
+      </nav>
+        </div>
+        <div className="box-content h-1000 w-1000 p-4 flex border-2 flex justify-center border-green-300">
+          <nav className="flex justify-center">
+          <div className="text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
           <Link href="/thera">
-            <a className="mr-2 font-bold text-green-500">
+            <a className="text-2xl mr-2 font-bold text-green-500">
               /Amazon Protection Program/
             </a>
           </Link>
