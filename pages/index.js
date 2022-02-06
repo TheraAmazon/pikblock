@@ -135,17 +135,25 @@ export default function Home() {
         </div>
       </nav>
         </div>
-        <div>
-        <p className="mr-1 text-red-600">Help the platform through donations and lets create together a better world!</p>
-      </div>
-      <div>
-        <a className="mr-1 text-green-600 flex flex-1 text-sm justify-left">Bitcoin : bc1qd29zqcm78w57zhr6zdt2cxrrsqd5mxuk28lmwp</a>
-      </div>
-      <div>
-        <a className="mr-1 text-blue-600 flex flex-1 text-sm justify-left">Eth Mainnet : 0x2E05EC78064E6E2b6fAAf6E4B6ed11684e7C9947</a>
-      </div>
-      <div>
-        <a className="mr-1 text-purple-600 flex flex-1 text-sm justify-left">Polygon (Matic Network) : 0x2eb0071ab3067dFEbd8926761dE152Eb432b6820</a>
+        <div className="relative py-4 sm:max-w-xl sm:mx-auto max-w-md mx-auto md:max-w-4xl justify-center center-items">
+        <h1 className="px-8 py-2 text-2xl flex justify-center items-center">
+        <a className="mr-1 text-red-600">Help the platform through donations and lets create together a better world!</a>
+        </h1>
+        </div>
+        <div className="relative py-4 sm:max-w-xl sm:mx-auto max-w-md mx-auto md:max-w-4xl justify-center center-items">
+        <h1 className="px-5 py-2 text-1xl flex justify-center items-center">
+        <a className="mr-1 text-green-600 flex flex-1 text-xs justify-left">Bitcoin Wallet : bc1qd29zqcm78w57zhr6zdt2cxrrsqd5mxuk28lmwp</a>
+        </h1>
+        </div>
+        <div className="relative py-4 sm:max-w-xl sm:mx-auto max-w-md mx-auto md:max-w-4xl justify-center center-items">
+        <h1 className="px-5 py-2 text-2xl flex justify-center items-center">
+        <a className="mr-1 text-blue-600 flex flex-1 text-xs justify-left">Eth Mainnet : 0x2E05EC78064E6E2b6fAAf6E4B6ed11684e7C9947</a>
+        </h1>
+        </div>
+        <div className="relative py-4 sm:max-w-xl sm:mx-auto max-w-md mx-auto md:max-w-4xl justify-center center-items">
+        <h1 className="px-5 py-2 text-2xl flex justify-center items-center">
+        <a className="mr-1 text-purple-600 flex flex-1 text-xs justify-left">Polygon (Matic Network) : 0x2eb0071ab3067dFEbd8926761dE152Eb432b6820</a>
+        </h1>
       </div>
            <div className="box-content">
         <div className="aspect-w-2 aspect-h-1 flex justify-center">
