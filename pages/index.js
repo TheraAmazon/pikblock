@@ -36,16 +36,14 @@ export default function Home() {
       </button>   
       </div>
       
-      <div className="flex justify-center items-center">
+      <div className="box-content h-1000 w-1000 p-4 flex border-2 flex justify-center border-red-500">
           <nav className="flex justify-center">
-          <div className="text-base text-gray-700 sm:text-md grid grid-cols-1 gap-1 justify-items-stretch">
-          <button className="text-red-500 bg-transparent border border-solid border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+          <div className="text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
         <Link href="/event">
-            <a className="px-3 py-2 text-2xl flex justify-center">
+        <a className="text-2xl mr-2 font-bold text-red-500">
               Post Event Piks!
             </a>
           </Link>
-          </button>
         </div>
       </nav>
         </div>
