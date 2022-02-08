@@ -25,7 +25,7 @@ module.exports = {
     },
     matic: {
       // Infura
-       url: "https://polygon-mainnet.infura.io/v3/291697c1912845f4b55b544eebda4698",
+       url: "https://polygon-rpc.com",
       //url: "https://rpc-mainnet.maticvigil.com",
       accounts: [privateKey]
     }
