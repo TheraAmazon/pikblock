@@ -27,7 +27,7 @@ export default function Home() {
         </p>
 
         <div className="Faucet-header flex justify-center">
-      <button className="text-red-500 bg-transparent border border-solid border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+      <button className="btn text-red-500 bg-transparent border border-solid border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
           <Link href="/dao">
             <a className="px-3 py-2 text-1xl flex justify-center">
             Join Our DAO for community engagement, NFT drops and more here!
