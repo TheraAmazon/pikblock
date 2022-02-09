@@ -92,7 +92,7 @@ function Faucet() {
       </header>
       
       <header className="Faucet-header flex justify-center">
-      <button className="btn text-blue-500 bg-transparent border border-solid border-blue-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold uppercase px-4 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+      <button className="text-blue-500 bg-transparent border border-solid border-blue-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold uppercase px-4 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
 <Link href="https://discord.gg/myeSk52J6x">
             <a className="px-10 py-4 text-1xl flex justify-center">
               Pikblock Discord!

@@ -104,11 +104,11 @@ export default function Sale() {
           onChange={e => setAmount(e.target.value)}
         />
         <div className="mt-4 flex items-center justify-center">
-        <button className="btn text-green-500 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-blue-600 font-bold uppercase px-12 py-4 rounded outline-none focus:outline-none mr-1 mb-4 ease-linear transition-all duration-150 flex items-center" onClick={sendCoins}>Buy Theras</button>
+        <button className="text-green-500 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-blue-600 font-bold uppercase px-12 py-4 rounded outline-none focus:outline-none mr-1 mb-4 ease-linear transition-all duration-150 flex items-center" onClick={sendCoins}>Buy Theras</button>
         </div>
           <p className="text-green-500">Read the emerald paper here!</p>
           <p>
-            <a href="https://tailwindcss.com/docs" className="text-green-500 hover:text-sky-600">Emerald Paper &rarr;</a>
+            <a href="https://bafybeidfie36julhtnfvahgihvqu3xbuop7edqvnay6pnqepju2womulta.ipfs.dweb.link/Papel%20Esmeralda%20ENG.pdf" className="text-green-500 hover:text-sky-600">Emerald Paper &rarr;</a>
           </p>
           </div>
         </div>
