@@ -106,7 +106,7 @@ function Marketplace({ Component, pageProps }) {
         <div className="flex justify-wrap mt-1">
           <Link href="/dao">
             <a className="text-1xl font-bold mr-2 text-pink-600">
-            Pikblock Dao Tokens!
+            Free Pikblock Dao Tokens!
             </a>
           </Link>
         </div>
