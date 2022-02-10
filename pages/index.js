@@ -83,7 +83,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center">
       <button className="text-purple-600 bg-transparent border border-solid border-purple-700 hover:bg-purple-700 hover:text-white active:bg-purple-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-        <Link href="/lifestyle">
+        <Link href="/portrait">
         <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
               Portrait yourself for life Piks here!
             </a>
@@ -92,7 +92,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center">
       <button className="text-pink-600 bg-transparent border border-solid border-pink-700 hover:bg-pink-700 hover:text-white active:bg-pink-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-        <Link href="/lifestyle">
+        <Link href="/travel">
         <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
               Do not forget to eternalize your traveling!
             </a>
@@ -111,7 +111,7 @@ export default function Home() {
       <div className="flex justify-center">
       <button className="text-green-400 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-green-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/thera">
-        <a className="text-1xl px-4 flex justify-center mr-2 font-bold">
+        <a className="text-1xl px-4 mr-2 font-bold flex justify-center">
               Helps thera foundation to reforest the Amazon!
             </a>
           </Link>
