@@ -94,7 +94,7 @@ export default function Home() {
       <button className="text-pink-600 bg-transparent border border-solid border-pink-700 hover:bg-pink-700 hover:text-white active:bg-pink-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/lifestyle">
         <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
-              Don't forget to eternalize your traveling!
+              Do not forget to eternalize your traveling!
             </a>
           </Link>
           </button>   
