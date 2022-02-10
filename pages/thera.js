@@ -108,7 +108,7 @@ export default function Sale() {
         </div>
           <p className="text-green-500">Read the emerald paper here!</p>
           <p>
-            <a href="https://bafybeidfie36julhtnfvahgihvqu3xbuop7edqvnay6pnqepju2womulta.ipfs.dweb.link/Papel%20Esmeralda%20ENG.pdf" className="text-green-500 hover:text-sky-600">Emerald Paper &rarr;</a>
+            <a href="https://bafybeidfie36julhtnfvahgihvqu3xbuop7edqvnay6pnqepju2womulta.ipfs.dweb.link/Papel%20Esmeralda%20ENG.pdf" className="text-green-500 hover:text-sky-600">The Emerald Paper &rarr;</a>
           </p>
           </div>
         </div>
