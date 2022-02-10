@@ -65,7 +65,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center">
       <button className="text-blue-400 bg-transparent border border-solid border-blue-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-        <Link href="/family">
+        <Link href="/friends">
         <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
               remember super friends Piks here!
             </a>
