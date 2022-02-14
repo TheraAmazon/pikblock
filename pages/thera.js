@@ -16,7 +16,8 @@ const theraUniqueaddress = "0x38a024C0b412B9d1db8BC398140D00F5Af3093D4"
 
 //import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json'
 
-export default function Sale() {
+function Sale({ user }) {
+  console.log({ user })
   const [userAccount, setUserAccount] = useState()
   const [tokenAmount, setAmount] = useState()
 
@@ -119,13 +120,15 @@ export default function Sale() {
   );
 }
 
-// export async function getServerSideProps({ req }) {
-//   const { user } = await supabase.auth.api.getUserByCookie(req)
+export default Sale;
 
-//   if (!user) {
-//     return { props: {}, redirect: { destination: '/sign-in' } }
-//   }
+export async function getServerSideProps({ req }) {
+  const { user } = await supabase.auth.api.getUserByCookie(req)
 
-//   return { props: { user } }
-// }
+  if (!user) {
+    return { props: {}, redirect: { destination: '/sign-in' } }
+  }
+
+  return { props: { user } }
+}
 
