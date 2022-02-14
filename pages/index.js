@@ -48,8 +48,8 @@ export default function Home() {
       <div className="flex justify-center">
       <button className="text-yellow-400 bg-transparent border border-solid border-yellow-500 hover:bg-yellow-500 hover:text-white active:bg-yellow-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/extra">
-        <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
-              hide your unique extra Piks here!
+        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+              Post your extra and random piks here!
             </a>
           </Link>
           </button>   
@@ -57,8 +57,8 @@ export default function Home() {
       <div className="flex justify-center">
       <button className="text-green-400 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-green-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/family">
-        <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
-              Keep your lovely family Piks here!
+        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+              Post your family piks here!
             </a>
           </Link>
           </button>   
@@ -66,8 +66,8 @@ export default function Home() {
       <div className="flex justify-center">
       <button className="text-blue-400 bg-transparent border border-solid border-blue-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/friends">
-        <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
-              remember super friends Piks here!
+        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+              Post your Friends Piks here!
             </a>
           </Link>
           </button>   
@@ -75,8 +75,8 @@ export default function Home() {
       <div className="flex justify-center">
       <button className="text-blue-600 bg-transparent border border-solid border-blue-700 hover:bg-blue-700 hover:text-white active:bg-blue-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/lifestyle">
-        <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
-              Relive your super lifestyle Piks here!
+        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+              Post your lifestyle Piks here!
             </a>
           </Link>
           </button>   
@@ -84,8 +84,8 @@ export default function Home() {
       <div className="flex justify-center">
       <button className="text-purple-600 bg-transparent border border-solid border-purple-700 hover:bg-purple-700 hover:text-white active:bg-purple-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/portrait">
-        <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
-              Portrait yourself for life Piks here!
+        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+              Post your portrait and profile Piks here!
             </a>
           </Link>
           </button>   
@@ -93,8 +93,8 @@ export default function Home() {
       <div className="flex justify-center">
       <button className="text-pink-600 bg-transparent border border-solid border-pink-700 hover:bg-pink-700 hover:text-white active:bg-pink-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/travel">
-        <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
-              Do not forget to eternalize your traveling!
+        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+              Post your traveling piks here!
             </a>
           </Link>
           </button>   
@@ -102,8 +102,8 @@ export default function Home() {
       <div className="flex justify-center">
       <button className="text-pink-800 bg-transparent border border-solid border-pink-900 hover:bg-pink-900 hover:text-white active:bg-pink-1000 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/dao">
-        <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
-              Receive Pikblock crypto free and joining the DAO!
+        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+              Free Pikblock coins and DAO here!
             </a>
           </Link>
           </button>   
