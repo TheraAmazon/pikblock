@@ -7,10 +7,10 @@ import TheraEccentric from '../artifacts/contracts/Thera.sol/TheraEccentric.json
 import TheraExtraordinary from '../artifacts/contracts/Thera.sol/TheraExtraordinary.json'
 import TheraSpecial from '../artifacts/contracts/Thera.sol/TheraSpecial.json'
 import TheraPreSale from '../artifacts/contracts/Thera.sol/TheraPreSale.json'
-import TheraMainSale from '../artifacts/contracts/Thera.sol/TheraMainSale.json'
-import TheraStable from '../artifacts/contracts/Thera.sol/TheraStable.json'
-const theraaddress = "0x525C7063E7C20997BaaE9bDa922159152D0e8417"
-const theraUniqueaddress = "0x38a024C0b412B9d1db8BC398140D00F5Af3093D4"
+import TheraPromo from '../artifacts/contracts/Thera.sol/TheraPromo.json'
+import TheraFoundation from '../artifacts/contracts/Thera.sol/TheraFoundation.json'
+const theraaddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+const theraUniqueaddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
 
 
 

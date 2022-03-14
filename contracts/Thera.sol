@@ -593,14 +593,14 @@ contract Thera is ERC20, ERC20Detailed, TheraSeeding, Ownable, Pausable  {
 }
 //Minter Minting Contract seeding Theras for the purpose of developing Co2 emssion captures pricification bringing and initial Thera plantations.
 //10
-contract TheraStable is TheraFounding {
+contract TheraFoundation is TheraFounding {
     uint256 internal constant RATE = 99060000000000000;
     
     constructor(address payable Wallet, address payable Token) public Crowdsale(RATE, Wallet, TheraSeeding(Token)) {
     }
 }
 //11
-contract TheraMainSale is TheraFounding {
+contract TheraPromo is TheraFounding {
     uint256 internal constant RATE = 89060000000000000;
     
     constructor(address payable Wallet, address payable Token) public Crowdsale(RATE, Wallet, TheraSeeding(Token)) {

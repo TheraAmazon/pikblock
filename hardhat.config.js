@@ -23,6 +23,12 @@ module.exports = {
       //url: "https://rpc-mumbai.matic.today",
       accounts: [privateKey]
     },
+    aox: {
+      // Infura
+       url: "https://arbitrum.xdaichain.com/",
+      //url: "https://rpc-mainnet.maticvigil.com",
+      accounts: [privateKey]
+    },
     matic: {
       // Infura
        url: "https://polygon-rpc.com",

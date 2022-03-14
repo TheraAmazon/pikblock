@@ -20,7 +20,7 @@ contract PIKBLOCKFAMILY is ERC721, ERC721Enumerable, ERC721URIStorage, Pausable,
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
     address contractAddress;
-    address multisig = 0x01EDe96B8973A8e3B311436640Be8e63773FB1E0;
+    address multisig = 0x15E18E949d3819dA4Afd312Ad6b308fDBCEA6f33;
 
     constructor(address marketplaceAddress) ERC721("PIKBLOCK - FAMILY", "PIKFAMILY") {
         _setupRole(DEFAULT_ADMIN_ROLE, multisig);
