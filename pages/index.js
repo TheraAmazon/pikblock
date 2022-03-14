@@ -112,7 +112,7 @@ export default function Home() {
       <button className="text-green-400 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-green-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/thera">
         <a className="text-1xl px-4 mr-2 font-bold flex justify-center">
-              Helps thera foundation to reforest the Amazon!
+              Help thera foundation to reforest the Amazon!
             </a>
           </Link>
           </button>   
