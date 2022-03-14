@@ -94,7 +94,7 @@ export default function CreateItem() {
           onChange={e => updateFormInput({ ...formInput, description: e.target.value })}
         />
         <input
-          placeholder="Pik Price in Matic"
+          placeholder="Pik Price in Op xDai"
           className="mt-2 border rounded p-4"
           onChange={e => updateFormInput({ ...formInput, price: e.target.value })}
         />
@@ -109,7 +109,7 @@ export default function CreateItem() {
             <img className="rounded mt-4" width="350" src={fileUrl} />
           )
         }
-       <p className="text-1xl italic">You will need a wallet funded with matic to post. After posting please wait 30 seconds to mine your NFT.</p>
+       <p className="text-1xl italic">You will need a wallet funded with Optmisim xDai to post. After posting please wait 3 seconds to mine your NFT.</p>
         <div className="box-content">
         <div className="aspect-w-2 aspect-h-1 flex justify-center">
          <iframe src="https://www.youtube.com/embed/HlghEfyI2J8" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -118,7 +118,7 @@ export default function CreateItem() {
        <div>
        <Link href="https://beta.transak.com/">
             <a className="mr-2 font-bold text-purple-600">
-              Buy Matic on Polygon network clicking here
+              Get some xDai from the Faucet here
             </a>
           </Link>
           </div>
