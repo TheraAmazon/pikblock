@@ -29,6 +29,12 @@ module.exports = {
       //url: "https://rpc-mainnet.maticvigil.com",
       accounts: [privateKey]
     },
+    opx: {
+      // Infura
+       url: "https://optimism.gnosischain.com/",
+      //url: "https://rpc-mainnet.maticvigil.com",
+      accounts: [privateKey]
+    },
     matic: {
       // Infura
        url: "https://polygon-rpc.com",
