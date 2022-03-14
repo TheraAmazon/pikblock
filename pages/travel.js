@@ -62,7 +62,7 @@ export default function Home() {
     const contract = new ethers.Contract(pikblocktravelMarketaddress, PIKBLOCKTRAVELMarket.abi, signer)
 
     const price = ethers.utils.parseUnits(pikblocktravel.price.toString(), 'ether')
-    const transaction = await contract.createMarketSale(pikblocktravelddress, pikblocktravel.itemId, {
+    const transaction = await contract.createMarketSale(pikblocktraveladdress, pikblocktravel.itemId, {
       value: price
     })
     await transaction.wait()
