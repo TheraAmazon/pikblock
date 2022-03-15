@@ -29,7 +29,7 @@ export default function Home() {
     (async () => await loadNFTs())()
   }, [])
   async function loadNFTs() {    
-    const provider = new ethers.providers.JsonRpcProvider("https://optimism.gnosischain.com")
+    const provider = new ethers.providers.JsonRpcProvider("https://rpc.gnosischain.com")
     const tokenContract = new ethers.Contract(pikblocktraveladdress, PIKBLOCKTRAVEL.abi, provider)
     const marketContract = new ethers.Contract(pikblocktravelMarketaddress, PIKBLOCKTRAVELMarket.abi, provider)
     const data = await marketContract.fetchMarketItems()
