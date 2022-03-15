@@ -28,7 +28,7 @@ module.exports = {
        url: "https://rpc.gnosischain.com",
        network_id: 100,
        gas: 500000,
-       gasPrice: 2000000000,
+       gasPrice: 5000000000,
       accounts: [privateKey]
     },
     aox: {
