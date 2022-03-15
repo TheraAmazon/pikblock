@@ -4,10 +4,10 @@ const fs = require('fs');
  const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
 
 module.exports = {
-  defaultNetwork: "matic",
+  defaultNetwork: "gnosis",
   networks: {
     hardhat: {
-      chainId: 1337
+      chainId: 100
     },
     rinkeby: {
        url: "https://rinkeby.infura.io/v3/291697c1912845f4b55b544eebda4698",
@@ -21,6 +21,14 @@ module.exports = {
       // Infura
       url: "https://polygon-mumbai.infura.io/v3/291697c1912845f4b55b544eebda4698",
       //url: "https://rpc-mumbai.matic.today",
+      accounts: [privateKey]
+    },
+    gnosis: {
+      // Infura
+       url: "https://rpc.gnosischain.com",
+       network_id: 100,
+       gas: 500000,
+       gasPrice: 2000000000,
       accounts: [privateKey]
     },
     aox: {
