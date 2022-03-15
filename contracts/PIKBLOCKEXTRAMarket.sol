@@ -16,10 +16,10 @@ contract PIKBLOCKEXTRAMarket is ReentrancyGuard, AccessControl {
   Counters.Counter private _itemsSold;
   using Strings for uint256;
   bytes32 public constant WITHDRAW_ROLE = keccak256("WITHDRAW_ROLE");
-  address multisig = 0x15E18E949d3819dA4Afd312Ad6b308fDBCEA6f33;
+  address multisig = 0xBcc351989558AB3c1d5b256741a9E6AE9962b9ae;
 
   address payable creator;
-  uint256 listingPrice = 0.0002 ether;
+  uint256 listingPrice = 0.00005 ether;
 
   constructor() {
     _setupRole(DEFAULT_ADMIN_ROLE, multisig);
