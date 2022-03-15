@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 import {
   pikblockaddress
-} from '../token'
+} from '../config'
 
 import Pikblock from '../artifacts/contracts/Pikblock.sol/Pikblock.json'
 
