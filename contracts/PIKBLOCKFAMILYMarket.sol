@@ -19,7 +19,7 @@ contract PIKBLOCKFAMILYMarket is ReentrancyGuard, AccessControl {
   address multisig = 0xBcc351989558AB3c1d5b256741a9E6AE9962b9ae;
 
   address payable creator;
-  uint256 listingPrice = 0.00005 ether;
+  uint256 listingPrice = 0.0001 ether;
 
   constructor() {
     _setupRole(DEFAULT_ADMIN_ROLE, multisig);
