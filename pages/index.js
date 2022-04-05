@@ -39,8 +39,8 @@ export default function Home() {
       <div className="flex justify-center">
       <button className="text-yellow-600 bg-transparent border border-solid border-yellow-700 hover:bg-yellow-700 hover:text-white active:bg-yellow-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/event">
-        <a className="text-1xl px-14 flex justify-center mr-2 font-bold">
-              Post your super Event Piks here!
+        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+              Post Event Piks!
             </a>
           </Link>
           </button>   
@@ -49,7 +49,7 @@ export default function Home() {
       <button className="text-yellow-400 bg-transparent border border-solid border-yellow-500 hover:bg-yellow-500 hover:text-white active:bg-yellow-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/extra">
         <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Post your extra and random piks here!
+              Post Extra Piks!
             </a>
           </Link>
           </button>   
@@ -58,7 +58,7 @@ export default function Home() {
       <button className="text-green-400 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-green-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/family">
         <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Post your family piks here!
+              Post family piks!
             </a>
           </Link>
           </button>   
@@ -67,7 +67,7 @@ export default function Home() {
       <button className="text-blue-400 bg-transparent border border-solid border-blue-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/friends">
         <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Post your Friends Piks here!
+              Post Friend Piks!
             </a>
           </Link>
           </button>   
@@ -76,7 +76,7 @@ export default function Home() {
       <button className="text-blue-600 bg-transparent border border-solid border-blue-700 hover:bg-blue-700 hover:text-white active:bg-blue-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/lifestyle">
         <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Post your lifestyle Piks here!
+              Post lifestyle Piks!
             </a>
           </Link>
           </button>   
@@ -85,7 +85,7 @@ export default function Home() {
       <button className="text-purple-600 bg-transparent border border-solid border-purple-700 hover:bg-purple-700 hover:text-white active:bg-purple-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/portrait">
         <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Post your portrait and profile Piks here!
+              Post portrait Piks!
             </a>
           </Link>
           </button>   
@@ -94,7 +94,7 @@ export default function Home() {
       <button className="text-pink-600 bg-transparent border border-solid border-pink-700 hover:bg-pink-700 hover:text-white active:bg-pink-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/travel">
         <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Post your traveling piks here!
+              Post Travel Piks!
             </a>
           </Link>
           </button>   

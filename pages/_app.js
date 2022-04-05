@@ -41,7 +41,7 @@ function Marketplace({ Component, pageProps }) {
   }
   return (
     <div className="min-h-full bg-gray-100 py-4 flex flex-col justify-center sm:py-12">
-        <p className="text-3xl font-bold flex justify-center">PikBlock - Secret Album </p>
+        <p className="text-2xl font-bold flex justify-center">PikBlock - Secret Album </p>
         <nav className="box-content flex justify-center items-center border-red-300">
        <div className="text-base sm:text-sm grid grid-cols-4 hover:grid-cols-3 gap-1/2 flex justify-center justify-items-stretch">
        <button className="text-red-500 bg-transparent border border-solid border-red-600 hover:bg-red-600 hover:text-white active:bg-red-700 font-bold uppercase px-1 py-2 rounded outline-none focus:outline-none mr-1/2 mb-1 ease-linear transition-all duration-150" type="button">
@@ -130,11 +130,13 @@ function Marketplace({ Component, pageProps }) {
         </div>
       </nav>
       <nav className="border-b p-2 mt-2 flex justify-center">
+      <div className="flex justify-wrap mt-1">
       <Link href="/thera">
-            <a className="text-2xl mr-2 font-bold text-green-500">
+            <a className="text-1xl mr-2 font-bold text-green-500">
               Help Protect The Amazon!
             </a>
           </Link>
+          </div>
       </nav>
       <Component {...pageProps} />
     </div>  
