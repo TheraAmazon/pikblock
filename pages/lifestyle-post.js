@@ -82,7 +82,7 @@ export default function CreateItem() {
     <div className="flex justify-center">
       <div className="w-1/2 flex flex-col pb-12">
       <p className="text-1xl italic">For the safety of your copyright work and best practices
-        please provide your full name, date, address, social media and if possible sign your meme in the description.</p>
+        please provide your full name, date, address, social media and if possible sign your Pik in the description.</p>
         <input 
           placeholder="Pik Name"
           className="mt-8 border rounded p-4"
@@ -116,9 +116,16 @@ export default function CreateItem() {
        </div>
        </div>
        <div>
+       <Link href="https://add.gnosis.tools/">
+            <a className="mr-2 font-bold text-yellow-600">
+            🦊 Add chain to MetaMask
+            </a>
+          </Link>
+          </div>
+       <div>
        <Link href="https://www.gimlu.com/faucet">
             <a className="mr-2 font-bold text-purple-600">
-              Get some xDai from the Faucet here
+              Get some Optimistic xDai from the Faucet here
             </a>
           </Link>
           </div>
