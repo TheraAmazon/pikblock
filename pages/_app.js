@@ -43,11 +43,11 @@ function Marketplace({ Component, pageProps }) {
     <div className="min-h-full bg-gray-100 py-4 flex flex-col justify-center sm:py-12">
         <p className="text-2xl font-bold flex justify-center">PikBlock - Secret Album </p>
         <nav className="box-content flex justify-center items-center border-red-300">
-       <div className="text-base sm:text-sm grid grid-cols-4 hover:grid-cols-3 gap-1/2 flex justify-center justify-items-stretch">
-       <button className="text-red-500 bg-transparent border border-solid border-red-600 hover:bg-red-600 hover:text-white active:bg-red-700 font-bold uppercase px-1 py-2 rounded outline-none focus:outline-none mr-1/2 mb-1 ease-linear transition-all duration-150" type="button">
-          <Link href="/">
-            <a className="text-1xl font-bold mr-1/2 flex justify-center">
-            Home
+       <div className="text-base text-gray-700 sm:text-lg flex flex-justify-stretch justify-items-stretch">
+       <button className="text-green-400 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-green-600 font-bold uppercase px-24 py-2 rounded outline-none focus:outline-none mr-1/2 mb-1 ease-linear transition-all duration-150" type="button">
+       <Link href="/"> 
+            <a className="mr-1/2">
+            Pikblock!
             </a>
           </Link>
           </button>
@@ -100,15 +100,6 @@ function Marketplace({ Component, pageProps }) {
             </a> 
           </Link>
           </button>
-        </div>
-      </nav>
-            <nav className="border-b p-2 mt-2 flex justify-center">
-        <div className="flex justify-wrap mt-1">
-          <Link href="/dao">
-            <a className="text-1xl font-bold mr-2 text-pink-600">
-            Free Pikblock Dao Tokens!
-            </a>
-          </Link>
         </div>
       </nav>
       <nav className="border-b p-2 mt-2 flex justify-center">

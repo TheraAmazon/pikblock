@@ -26,97 +26,76 @@ export default function Home() {
           YOUR PICTURES AND MEMORIES SECURE IN THE BLOCKCHAIN!
         </p>
 
-        <div className="flex justify-center">
-      <button className="text-red-500 bg-transparent border border-solid border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-          <Link href="/dao">
-            <a className="px-3 py-2 text-1xl flex justify-center">
-            Join Our DAO for community engagement, NFT drops and more here!
-            </a>
-          </Link>
-      </button>   
-      </div>
       
-      <div className="flex justify-center">
+      <div className="box-content p-3 flex justify-center items-center border-red-300">
+          <nav className="flex justify-center">
+          <div className="text-base text-gray-700 sm:text-sm grid grid-cols-1 hover:grid-cols-1 gap-1 justify-items-stretch">
       <button className="text-yellow-600 bg-transparent border border-solid border-yellow-700 hover:bg-yellow-700 hover:text-white active:bg-yellow-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/event">
-        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+        <a className="mr-1/2">
               Post Event Piks!
             </a>
           </Link>
           </button>   
-      </div>
-      <div className="flex justify-center">
       <button className="text-yellow-400 bg-transparent border border-solid border-yellow-500 hover:bg-yellow-500 hover:text-white active:bg-yellow-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/extra">
-        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+        <a className="mr-1/2">
               Post Extra Piks!
             </a>
           </Link>
           </button>   
-      </div>
-      <div className="flex justify-center">
       <button className="text-green-400 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-green-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/family">
-        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Post family piks!
+        <a className="mr-1/2">
+              Post Family piks!
             </a>
           </Link>
           </button>   
-      </div>
-      <div className="flex justify-center">
       <button className="text-blue-400 bg-transparent border border-solid border-blue-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/friends">
-        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+        <a className="mr-1/2">
               Post Friend Piks!
             </a>
           </Link>
           </button>   
-      </div>
-      <div className="flex justify-center">
       <button className="text-blue-600 bg-transparent border border-solid border-blue-700 hover:bg-blue-700 hover:text-white active:bg-blue-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/lifestyle">
-        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Post lifestyle Piks!
+        <a className="mr-1/2">
+              Post Lifestyle Piks!
             </a>
           </Link>
           </button>   
-      </div>
-      <div className="flex justify-center">
       <button className="text-purple-600 bg-transparent border border-solid border-purple-700 hover:bg-purple-700 hover:text-white active:bg-purple-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/portrait">
-        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Post portrait Piks!
+        <a className="mr-1/2">
+              Post Portrait Piks!
             </a>
           </Link>
           </button>   
-      </div>
-      <div className="flex justify-center">
       <button className="text-pink-600 bg-transparent border border-solid border-pink-700 hover:bg-pink-700 hover:text-white active:bg-pink-800 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
         <Link href="/travel">
-        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
+        <a className="mr-1/2">
               Post Travel Piks!
             </a>
           </Link>
-          </button>   
-      </div>
-      <div className="flex justify-center">
-      <button className="text-pink-800 bg-transparent border border-solid border-pink-900 hover:bg-pink-900 hover:text-white active:bg-pink-1000 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-        <Link href="/dao">
-        <a className="text-1xl px-20 flex justify-center mr-2 font-bold">
-              Free Pikblock coins and DAO here!
+          </button>  
+          <button className="text-green-400 bg-transparent border border-solid border-green-400 hover:bg-green-400 hover:text-white active:bg-green-400 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1/2 mb-1 ease-linear transition-all duration-150" type="button">
+          <Link href="/thera">
+            <a className="mr-1/2 font-bold">
+            /Amazon Protection Program/
             </a>
           </Link>
-          </button>   
-      </div>
-      <div className="flex justify-center">
-      <button className="text-green-400 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-green-600 font-bold uppercase px-3 py-4 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-        <Link href="/thera">
-        <a className="text-1xl px-4 mr-2 font-bold flex justify-center">
-              Help thera foundation to reforest the Amazon!
-            </a>
-          </Link>
-          </button>   
-      </div>
+          </button> 
+          </div>
+          </nav>
+          </div>
+          <div className="box-content p-3 flex justify-center items-center border-red-300">
+          <nav className="flex justify-center">
+          <div className="text-base text-gray-700 sm:text-sm grid grid-cols-1 hover:grid-cols-4 gap-1 justify-items-center">
+        </div>
+      </nav>
+      
+        </div>
         <div className="relative py-4 sm:max-w-xl sm:mx-auto max-w-md mx-auto md:max-w-4xl justify-center center-items">
         <h1 className="px-8 py-2 text-2xl flex justify-center items-center">
         <a className="mr-1 text-red-600">Help the platform through donations and lets create together a better world!</a>

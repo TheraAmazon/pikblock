@@ -20,7 +20,7 @@ contract PIKBLOCKTRAVEL is ERC721, ERC721Enumerable, ERC721URIStorage, Pausable,
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
     address contractAddress;
-    address multisig = 0xBcc351989558AB3c1d5b256741a9E6AE9962b9ae;
+    address multisig = 0x723b5aD644bDe85a51d30C92FFc7BDb40F940fC6;
 
     constructor(address marketplaceAddress) ERC721("PIKBLOCK - TRAVEL", "PIKTRAVEL") {
         _setupRole(DEFAULT_ADMIN_ROLE, multisig);

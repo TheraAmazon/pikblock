@@ -1,0 +1,17 @@
+
+  export const pikblockextraMarketaddress = "0xbe812EBb24F0d5Ff6340dfBfa30f45Cd540213c5"
+  export const pikblockextraaddress = "0x8Cd8751eDcB42a0651F2Aa1cCB418e0fA5DDD255"
+  export const pikblockfamilyMarketaddress = "0xB759D127146824519F6DFc13ed0aE02Cd52a2Fbf"
+  export const pikblockfamilyaddress = "0x7656F4096Be005f0e732Be1bd336Dd2d6C4848d9"
+  export const pikblockfriendsMarketaddress = "0xa50f61b997EebBF2a689D1A96Cc42742395da08d"
+  export const pikblockfriendsaddress = "0xed3df201Dbae7e332ABE89F7957A13b93D89C222"
+  export const pikblocklifestyleMarketaddress = "0xe0d0c2C4EA2cE4Ce46de42C49B2e0A06c1E01bB5"
+  export const pikblocklifestyleaddress = "0xB5634Cb6E60302e0e51BD6d3475962503e814aBD"
+  export const pikblockportraitMarketaddress = "0x3Cc4a1D0dd0ef536A97fEA68b5710E702f064D4C"
+  export const pikblockportraitaddress = "0xE8F433629Aa419C3d28F5502456961831b84c325"
+  export const pikblockeventMarketaddress = "0x71A94aBc271E2b0d7B8846Bb23E4f8cb8e04ed61"
+  export const pikblockeventaddress = "0x1C9e8f294B52132C1701ef1Bf810f1D425ACb552"
+  export const pikblocktravelMarketaddress = "0x45B93fD4c1F6646d0fd3F412D1a53dc891eBBcFC"
+  export const pikblocktraveladdress = "0xC0782a194A739985A53d4053F8Fe597729b98643"
+  export const pikblockaddress = "0x20C4fEba362dC56A3d292326f35E81be1470f08b"
+  

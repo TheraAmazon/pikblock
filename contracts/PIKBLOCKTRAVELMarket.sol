@@ -16,10 +16,10 @@ contract PIKBLOCKTRAVELMarket is ReentrancyGuard, AccessControl {
   Counters.Counter private _itemsSold;
   using Strings for uint256;
   bytes32 public constant WITHDRAW_ROLE = keccak256("WITHDRAW_ROLE");
-  address multisig = 0xBcc351989558AB3c1d5b256741a9E6AE9962b9ae;
+  address multisig = 0x723b5aD644bDe85a51d30C92FFc7BDb40F940fC6;
 
   address payable creator;
-  uint256 listingPrice = 0.00005 ether;
+  uint256 listingPrice = 0.00 ether;
 
   constructor() {
     _setupRole(DEFAULT_ADMIN_ROLE, multisig);
