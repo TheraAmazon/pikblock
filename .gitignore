@@ -65,4 +65,5 @@ amplify-gradle-config.json
 amplifytools.xcconfig
 .secret-*
 /contracts
+contracts
 #amplify-do-not-edit-end
