@@ -66,4 +66,5 @@ amplifytools.xcconfig
 .secret-*
 /contracts
 contracts
+contracts/
 #amplify-do-not-edit-end
