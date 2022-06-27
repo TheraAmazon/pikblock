@@ -7,11 +7,12 @@ git clone https://github.com/TheraFoundationGlobal/pikblock.git
 cd pikblock
 
 # install using NPM or Yarn
+
 npm install
 
-# or
+or
 
-# yarn
+yarn
 
 
 # 2.Start the local Hardhat node
