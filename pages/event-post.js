@@ -1,20 +1,23 @@
 import { useState } from 'react'
 import { ethers } from 'ethers'
 import { create as ipfsHttpClient } from 'ipfs-http-client'
-import { supabase } from '../client'
 import { useRouter } from 'next/router'
 import Web3Modal from 'web3modal'
 import Link from 'next/link'
 
-const client = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0/add?pin=true')
-
-import {
-  pikblockeventaddress, pikblockeventMarketaddress
-} from '../config'
+import imageCompression from 'browser-image-compression';
+import { pikblockeventaddress, pikblockeventMarketaddress } from '../config'
 
 import PIKBLOCKEVENT from '../artifacts/contracts/PIKBLOCKEVENT.sol/PIKBLOCKEVENT.json'
 import PIKBLOCKEVENTMarket from '../artifacts/contracts/PIKBLOCKEVENTMarket.sol/PIKBLOCKEVENTMarket.json'
 
+const client = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0/add?pin=true')
+
+const compressionOptions = {
+  maxSizeMB: 1,
+  maxWidthOrHeight: 1920,
+  useWebWorker: true
+}
 export default function CreateItem() {
   const [fileUrl, setFileUrl] = useState(null)
   const [formInput, updateFormInput] = useState({ price: '', name: '', description: '' })
@@ -23,8 +26,12 @@ export default function CreateItem() {
   async function onChange(e) {
     const file = e.target.files[0]
     try {
+      const compressedFile = await imageCompression(file, {
+        ...compressionOptions,
+        onProgress: (prog) => console.log(`compressing: ${prog}`)
+      });
       const added = await client.add(
-        file,
+        compressedFile,
         {
           progress: (prog) => console.log(`received: ${prog}`)
         }

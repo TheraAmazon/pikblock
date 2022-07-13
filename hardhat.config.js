@@ -4,7 +4,7 @@ const fs = require('fs');
  const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
 
 module.exports = {
-  defaultNetwork: "gnosis",
+  defaultNetwork: "opx",
   networks: {
     hardhat: {
       chainId: 100
