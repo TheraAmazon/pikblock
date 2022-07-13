@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { supabase } from '../client';
 import { useRouter } from 'next/router';
-import PikBlock from '../public/PikBlock.png';
+import PikBlock from '../public/pikblock.png';
 
 function Marketplace({ Component, pageProps }) {
   const router = useRouter();
