@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
@@ -7,21 +6,10 @@ import PikBlock from '../public/pikblock.png';
 export default function Home() {
   return (
     <div>
-      <Head>
-        <Image
-          onClick={() => router.push('/')}
-          width="125"
-          objectFit="contain"
-          height="56"
-          className="cursor-pointer"
-          src={PikBlock}
-          title="PikBlock - Blockchain album"
-        />
-      </Head>
-      <div className="relative px-auto sm:max-w-xl sm:mx-auto max-w-md mx-auto md:max-w-4xl justify-center center-items">
-        <div className="md:flex relative px-4 py-3 sm:p-12">
+      <div className="relative py-2 sm:max-w-xl sm:mx-auto max-w-md mx-auto md:max-w-4xl justify-center center-items">
+        <div className="md:flex relative px-4 py-3 shadow-lg sm:rounded-3xl sm:p-12">
           <div className="max-w-md mx-auto">
-            <div className="flex justify-center">
+            <div className="flex justify-center items-center">
               <Image
                 src="/pikblock.png"
                 alt="PikBlock Logo"
