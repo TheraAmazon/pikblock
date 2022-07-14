@@ -93,7 +93,7 @@ export default function Home() {
   }
   if (loadingState === 'loaded' && !nfts.length)
     return (
-      <h1 className="flex flex-col justify-center space-y-1 px-40">
+      <h1 className="flex flex-col justify-center space-y-1 px-4 mt-4">
         <Link href="/event">
           <a className="bg-yellow-600 px-10 py-4 text-1xl flex justify-center rounded">
             PikBlock event
@@ -122,7 +122,7 @@ export default function Home() {
       </h1>
     );
   return (
-    <div className="flex flex-col justify-center space-y-1 px-40">
+    <div className="flex flex-col justify-center space-y-1 px-4 mt-4">
       <Link href="/event">
         <a className="bg-yellow-600 px-10 py-4 text-1xl flex justify-center rounded">
           PikBlock event
