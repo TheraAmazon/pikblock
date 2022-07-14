@@ -54,7 +54,7 @@ function Marketplace({ Component, pageProps }) {
           src={PikBlock}
         />
       </div>
-      <nav className="box-content flex justify-center items-center border-red-300 p-2">
+      <nav className="box-content flex justify-center items-center border-red-300 p-1">
         <div className="text-base sm:text-sm grid grid-cols-4 hover:grid-cols-3 gap-1/2 flex justify-center justify-items-stretch">
           <button
             className="text-red-500 bg-transparent border border-solid border-red-600 hover:bg-red-600 hover:text-white active:bg-red-700 font-bold uppercase px-1 py-2 rounded outline-none focus:outline-none mr-1/2 mb-1 ease-linear transition-all duration-150"
