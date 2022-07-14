@@ -53,6 +53,12 @@ function Marketplace({ Component, pageProps }) {
           className="cursor-pointer"
           src={PikBlock}
         />
+        <div>
+          {' '}
+          <a className="font-bold text-xl flex justify-center">
+            Pikblock - Blochchain Album
+          </a>
+        </div>
       </div>
       <nav className="box-content flex justify-center items-center border-red-300 p-1">
         <div className="text-base sm:text-sm grid grid-cols-4 hover:grid-cols-3 gap-1/2 flex justify-center justify-items-stretch">
