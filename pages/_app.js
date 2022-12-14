@@ -58,6 +58,9 @@ function Marketplace({ Component, pageProps }) {
           <a className="font-bold text-xl flex justify-center">
             Pikblock - Blochchain Album
           </a>
+          <a className="text-xl flex justify-center">
+            Choose your pikture style to post
+          </a>
         </div>
       </div>
       <nav className="box-content flex justify-center items-center border-red-300 p-1">
