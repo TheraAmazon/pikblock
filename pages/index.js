@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
-import PikBlock from '../public/pikblock.png';
 
 export default function Home() {
   return (
@@ -20,11 +19,9 @@ export default function Home() {
             <h1 className="px-5 py-2 text-3xl flex justify-center">
               Blockchain Album
             </h1>
-
             <p className={styles.description}>
               YOUR PICTURES AND MEMORIES SECURE IN THE BLOCKCHAIN!
             </p>
-
             <div className="box-content p-3 flex justify-center items-center border-red-300">
               <nav className="flex justify-center">
                 <div className="text-base text-gray-700 sm:text-sm grid grid-cols-1 hover:grid-cols-1 gap-1 justify-items-stretch">
