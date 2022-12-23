@@ -34,7 +34,7 @@ export default function Home() {
   }, []);
   async function loadNFTs() {
     const provider = new ethers.providers.JsonRpcProvider(
-      'https://optimism.gnosischain.com'
+      'https://goerli.infura.io/v3/291697c1912845f4b55b544eebda4698'
     );
     const tokenContract = new ethers.Contract(
       pikblockfriendsaddress,
@@ -159,12 +159,12 @@ export default function Home() {
                 <img src={nft.image} />
                 <div className="p-4">
                   <p
-                    style={{ height: '64px' }}
+                    style={{ height: '30px' }}
                     className="text-2xl font-semibold"
                   >
                     {nft.name}
                   </p>
-                  <div style={{ height: '300px', overflow: 'hidden' }}>
+                  <div style={{ height: '150px', overflow: 'hidden' }}>
                     <p className="text-gray-400">{nft.description}</p>
                   </div>
                 </div>

@@ -16,9 +16,20 @@ import {
 import PIKBLOCKLIFESTYLE from '../artifacts/contracts/PIKBLOCKLIFESTYLE.sol/PIKBLOCKLIFESTYLE.json';
 import PIKBLOCKLIFESTYLEMarket from '../artifacts/contracts/PIKBLOCKLIFESTYLEMarket.sol/PIKBLOCKLIFESTYLEMarket.json';
 
-const client = ipfsHttpClient(
-  'https://ipfs.infura.io:5001/api/v0/add?pin=true'
-);
+const projectId = process.env.PROJECT_ID;
+const projectSecret = process.env.PROJECT_SECRET;
+const auth =
+  'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
+
+const subdomain = 'https://pikblock.infura-ipfs.io';
+const client = ipfsHttpClient({
+  host: 'ipfs.infura.io',
+  port: 5001,
+  protocol: 'https',
+  headers: {
+    authorization: auth,
+  },
+});
 
 const compressionOptions = {
   maxSizeMB: 1,
@@ -45,7 +56,7 @@ export default function CreateItem() {
       const added = await client.add(compressedFile, {
         progress: (prog) => console.log(`received: ${prog}`),
       });
-      const url = `https://ipfs.infura.io/ipfs/${added.path}`;
+      const url = `https://pikblock.infura-ipfs.io/ipfs/${added.path}`;
       setFileUrl(url);
     } catch (error) {
       console.log('Error uploading file: ', error);
@@ -62,7 +73,7 @@ export default function CreateItem() {
     });
     try {
       const added = await client.add(data);
-      const url = `https://ipfs.infura.io/ipfs/${added.path}`;
+      const url = `https://pikblock.infura-ipfs.io/ipfs/${added.path}`;
       /* after file is uploaded to IPFS, pass the URL to save it on Polygon */
       createSale(url);
     } catch (error) {

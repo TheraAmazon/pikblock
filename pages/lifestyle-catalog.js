@@ -33,7 +33,7 @@ export default function Home() {
   }, []);
   async function loadNFTs() {
     const provider = new ethers.providers.JsonRpcProvider(
-      'https://optimism.gnosischain.com'
+      'https://goerli.infura.io/v3/291697c1912845f4b55b544eebda4698'
     );
     const tokenContract = new ethers.Contract(
       pikblocklifestyleaddress,

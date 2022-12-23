@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { supabase } from '../client';
 import { useRouter } from 'next/router';
 import '@rainbow-me/rainbowkit/styles.css';
-
+import { goerli } from 'wagmi/chains';
 import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import { configureChains, createClient, WagmiConfig } from 'wagmi';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
@@ -34,7 +34,7 @@ const gnosisChain = {
 };
 
 const { provider, chains } = configureChains(
-  [gnosisChain],
+  [gnosisChain, goerli],
   [
     jsonRpcProvider({ rpc: () => ({ http: 'https://rpc.ankr.com/gnosis' }) }), //<<<< New RPC Provider
     alchemyProvider({ alchemyId: process.env.ALCHEMY_ID }),

@@ -2,19 +2,22 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { useRouter } from 'next/router';
 
 function Navbar() {
+  const router = useRouter();
   return (
     <div>
       <div className="min-h-full flex flex-col justify-center">
         <div className="flex flex-col justify-center p-2">
           <Image
-            width="125"
+            onClick={() => router.push('/')}
+            width="80"
             objectFit="contain"
-            height="56"
+            height="80"
             className="cursor-pointer"
             src="/pikblock.png"
-            alt="PikBlock Logo"
+            alt="Pikblock Logo"
           />
           <div>
             {' '}
