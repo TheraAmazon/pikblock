@@ -1,8 +1,8 @@
 module.exports = {
   reactStrictMode: true,
   env: {
-    PROJECT_ID: process.env.PROJECT_ID,
-    PROJECT_SECRET: process.env.PROJECT_SECRET,
+    NEXT_PUBLIC_PROJECT_ID: process.env.NEXT_PUBLIC_PROJECT_ID,
+    NEXT_PUBLIC_PROJECT_SECRET: process.env.NEXT_PUBLIC_PROJECT_SECRET,
   },
   images: {
     domains: ['pikblock.infura-ipfs.io', 'infura-ipfs.io'],

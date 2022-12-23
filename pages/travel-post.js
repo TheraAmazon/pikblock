@@ -12,8 +12,8 @@ import { pikblocktraveladdress, pikblocktravelMarketaddress } from '../config';
 import PIKBLOCKTRAVEL from '../artifacts/contracts/PIKBLOCKTRAVEL.sol/PIKBLOCKTRAVEL.json';
 import PIKBLOCKTRAVELMarket from '../artifacts/contracts/PIKBLOCKTRAVELMarket.sol/PIKBLOCKTRAVELMarket.json';
 
-const projectId = process.env.PROJECT_ID;
-const projectSecret = process.env.PROJECT_SECRET;
+const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
+const projectSecret = process.env.NEXT_PUBLIC_PROJECT_SECRET;
 const auth =
   'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 

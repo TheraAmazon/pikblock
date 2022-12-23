@@ -15,8 +15,8 @@ import {
 import PIKBLOCKFRIENDS from '../artifacts/contracts/PIKBLOCKFRIENDS.sol/PIKBLOCKFRIENDS.json';
 import PIKBLOCKFRIENDSMarket from '../artifacts/contracts/PIKBLOCKFRIENDSMarket.sol/PIKBLOCKFRIENDSMarket.json';
 
-const projectId = process.env.PROJECT_ID;
-const projectSecret = process.env.PROJECT_SECRET;
+const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
+const projectSecret = process.env.NEXT_PUBLIC_PROJECT_SECRET;
 const auth =
   'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 

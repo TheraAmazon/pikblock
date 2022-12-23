@@ -8,8 +8,8 @@ import Link from 'next/link';
 
 import imageCompression from 'browser-image-compression';
 
-const projectId = process.env.PROJECT_ID;
-const projectSecret = process.env.PROJECT_SECRET;
+const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
+const projectSecret = process.env.NEXT_PUBLIC_PROJECT_SECRET;
 const auth =
   'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 

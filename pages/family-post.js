@@ -12,8 +12,8 @@ import { pikblockfamilyaddress, pikblockfamilyMarketaddress } from '../config';
 import PIKBLOCKFAMILY from '../artifacts/contracts/PIKBLOCKFAMILY.sol/PIKBLOCKFAMILY.json';
 import PIKBLOCKFAMILYMarket from '../artifacts/contracts/PIKBLOCKFAMILYMarket.sol/PIKBLOCKFAMILYMarket.json';
 
-const projectId = process.env.PROJECT_ID;
-const projectSecret = process.env.PROJECT_SECRET;
+const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
+const projectSecret = process.env.NEXT_PUBLIC_PROJECT_SECRET;
 const auth =
   'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 

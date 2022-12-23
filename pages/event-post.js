@@ -12,8 +12,8 @@ import { pikblockeventaddress, pikblockeventMarketaddress } from '../config';
 import PIKBLOCKEVENT from '../artifacts/contracts/PIKBLOCKEVENT.sol/PIKBLOCKEVENT.json';
 import PIKBLOCKEVENTMarket from '../artifacts/contracts/PIKBLOCKEVENTMarket.sol/PIKBLOCKEVENTMarket.json';
 
-const projectId = process.env.PROJECT_ID;
-const projectSecret = process.env.PROJECT_SECRET;
+const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
+const projectSecret = process.env.NEXT_PUBLIC_PROJECT_SECRET;
 const auth =
   'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 
