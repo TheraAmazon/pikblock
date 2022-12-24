@@ -37,7 +37,9 @@ const { provider, chains } = configureChains(
   [gnosisChain, goerli],
   [
     jsonRpcProvider({ rpc: () => ({ http: 'https://rpc.ankr.com/gnosis' }) }), //<<<< New RPC Provider
-    alchemyProvider({ alchemyId: process.env.ALCHEMY_ID }),
+    alchemyProvider({
+      alchemyId: process.env.NEXT_PUBLIC_ALCHEMY_ID,
+    }),
     publicProvider(),
   ]
 );
